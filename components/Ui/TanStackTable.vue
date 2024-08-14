@@ -207,7 +207,7 @@
     header: ({ table }) => {
       return h(
         "div",
-        { class: "flex items-center justify-center" },
+        { class: "w-full flex items-center justify-center" },
         h(CheckBox, {
           checked: table.getIsAllRowsSelected()
             ? true
